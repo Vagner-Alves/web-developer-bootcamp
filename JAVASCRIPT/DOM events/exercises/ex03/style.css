@@ -1,0 +1,32 @@
+body{
+    background-color:#1DA1F2;
+    font:30px;
+    color: rgb(16, 14, 14);
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+img{
+    width: 30px;
+    
+}
+section{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    border-radius: 2%;
+}
+
+input{
+    margin: 25px 10px;
+    border-radius: 30px;
+    
+}
+
+button{
+    border-radius: 30px;
+}
