@@ -1,0 +1,51 @@
+html
+
+section{
+    background-color:#6d6875;
+    height: 800px;
+    width: 800px;
+}
+
+div{
+    background-color: #e5989b;
+    width:50%;
+    height:50%;
+}
+
+h1{
+    font-size: 40px;
+    border:1px solid black;
+    line-height: 80px;
+}
+
+h2{
+    font-size:2em;
+}
+
+p{
+    font-size:1em;
+}
+
+article{
+    font-size:30px;
+}
+
+button:hover{
+    font-size: 3em;
+    padding: 2em;
+    border-radius: 1em;
+    background-color: #2a9d8f;
+    color:white;
+}
+
+#ems ul{
+    font-size: 1.5em;
+}
+
+#rems h2{
+    font-size: 3rem;
+}
+
+#rems ul{
+    font-size:1.5rem;
+}

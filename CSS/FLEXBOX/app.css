@@ -1,0 +1,53 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#container{
+    width: 80%;
+    background-color: darkblue;
+    margin: 0 auto;
+    border: 5px solid #0034;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+
+#container div
+{
+    /*width: 200px;*/
+    height: 200px;
+    text-align: center;
+    flex-basis: 600px;
+    font-size: 100px;
+    flex-grow:1;
+}
+div:nth-last-of-type(5){
+    flex-grow:1;
+    flex-shrink:2 ;
+}
+main{
+    height: 500px;
+    width: 80%;
+    display:flex;
+    margin:10px auto;
+    border: 5px solid rgba(0, 0, 0, 0.863);
+}   
+main .Sidebar{
+    background-color: rgb(20, 233, 162);
+
+    flex: 2 1 200px;
+} 
+
+main .MainContent{
+    background-color: blueviolet;
+    flex:1 2 600px;
+}

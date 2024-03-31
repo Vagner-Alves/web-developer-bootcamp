@@ -1,0 +1,57 @@
+*{
+    color:rgb(136, 6, 6);
+    background-color:#e9e0b0;
+}
+
+button{
+    font: size 30px;
+}
+
+h1, h2{
+    color: azure;
+}
+
+#signup{
+    color:chartreuse;
+}
+
+.funny{
+    background-color:rgba(243, 0, 0, 0.849);
+    color:whitesmoke;
+
+}
+
+footer a {
+    color:red;
+}
+
+h2 + button{
+    background-color: brown;
+}
+
+footer > a {
+ color:blue;
+}
+
+input[type = "Password"]{
+    color: rgb(100, 0, 13);
+}
+.post:nth-last-of-type(2n){
+    color:aqua;
+}
+
+h2::first-letter{
+    size: 50px;
+}
+
+
+button:hover{
+    background-color: rgb(231, 12, 85);
+    color:rgb(255, 254, 254);
+}
+p:first-letter{
+    color:red;
+}
+p::first-line{
+    color:purple;
+}

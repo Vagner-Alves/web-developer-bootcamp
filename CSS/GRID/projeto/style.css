@@ -1,0 +1,38 @@
+body{
+    background-color: royalblue;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.card-img-top{
+    width: 225px;
+    height: 225px;
+}
+
+.img{
+    display: flex;
+}
+
+.container{
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    display: -ms-inline-grid;
+}
+
+.container , .botao{
+    text-align
+    : center;
+
+}
+
+.login{
+    justify-content: center;
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    display: grid;
+}

@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    font-weight: 300;
+    text-decoration: rgb(201, 18, 18) underline wavy;
+    letter-spacing: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2.5;
+}
+
+*{color:rgb(247, 11, 50);
+}
+
+h1, h2{
+    color:maroon;
+}
+
+button{
+    color:blueviolet;
+}

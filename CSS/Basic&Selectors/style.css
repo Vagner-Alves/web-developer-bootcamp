@@ -1,0 +1,20 @@
+
+h1{
+    color: violet;
+    background: rgb(50, 80, 100);
+    text-align: center;
+}
+
+h2{
+    color:darkmagenta;
+    background-color: #ffff00;
+}
+
+body{
+    background-color: #CCEEFF;
+}
+
+p{
+    text-align: center;
+}
+

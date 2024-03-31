@@ -1,0 +1,56 @@
+.MainNav{
+    background-color:#e5989b;
+    display: flex ;
+    margin-bottom: 20px ;
+    justify-content: center;
+}
+
+
+#zero{
+    background-color: pink;
+    width: 200px;
+    height: 400px;
+    display: grid;
+    margin:0;
+    border-radius: 3%;
+    text-align: center;
+}
+
+#one {
+    background-color: #e5989b;
+    width: 200px;
+    height:400px;
+    display:inline-block;
+    margin-top: 0%;
+    font-size: larger;
+    border-radius: 3%;
+    text-align: center;
+}
+
+
+#two {
+    background-color: #e5989b;
+    width: 200px;
+    height:400px;
+    display:grid;
+    font-size: larger;
+    border-radius: 3%;
+    text-align: center;
+}
+
+
+#three {
+    background-color: #e5989b;
+    width: 200px;
+    height:400px;
+    display:grid;
+    font-size: larger;
+    border-radius: 3%;
+    text-align: center;
+}   
+
+body{
+    color:bisque;
+    background-color:palegoldenrod;
+    margin-top: 0;
+}
