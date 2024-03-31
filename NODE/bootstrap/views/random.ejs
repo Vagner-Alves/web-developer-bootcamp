@@ -1,0 +1,14 @@
+<%- include('partials/head') %>
+
+    <%- include('partials/navbar') %>
+    <h1>My Lucky Number Page</h1>
+    <h2>your random lucky Number is!!!!!!! <%= num %></h2>
+    <!-- read the index.js file on line 19 to know where "randomNumber" comes from -->
+
+    <% if (num % 2 === 0){ %>
+        <h2>that  is a even number</h2>
+   <% } else { %>
+        <h2>That is an odd Number</h2>
+    <% } %>
+    <h3> <%= num%2===0 ? 'EVEN':'ODD' %> </h3>
+    <%- include('partials/footer') %>
